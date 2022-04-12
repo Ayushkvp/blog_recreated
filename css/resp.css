@@ -1,0 +1,65 @@
+@media screen and (max-width:1000px) {
+    .content{
+        margin: 2% 15%;
+    }
+    
+    .input{
+        margin: 1% 18%;
+        width: 62%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .content{
+        margin: 2% 8%;
+    }
+
+    .input{
+        margin: 1% 12%;
+        width: 74%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .content{
+        margin: 2% 5%;
+    }
+
+    .footerlinks{
+        display: grid;
+    }
+
+    .footerlinks a{
+        margin: 0% 40%;
+    }
+
+    #navlist{
+        display: none;
+    }
+
+    .navbar{
+        display: grid;
+    }
+    .logo{
+        margin: 0px 20px;
+    }
+
+    #navlist li{
+        margin: 0px 20px;
+    }
+
+    #btn{
+        display: flex;
+        margin: 5px 32px;
+    }
+
+    .dropdown:hover #navlist{
+        display: grid;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .footerlinks{
+        margin: 0%;
+    }
+}
